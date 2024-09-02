@@ -6,17 +6,17 @@ class AppTheme {
   static final Color colorLowPriority = Colors.green.shade400;
 
   static final TextTheme textTheme = TextTheme(
-    headline1: _headLine1,
-    headline2: _headLine2,
-    headline3: _headLine3,
-    headline4: _headLine4,
-    headline5: _headLine5,
-    headline6: _headLine6,
-    bodyText1: _bodyText1,
-    bodyText2: _bodyText2,
-    subtitle1: _subTitle1,
-    subtitle2: _subTitle2,
-    caption: _caption,
+    displayLarge: _headLine1,
+    displayMedium: _headLine2,
+    displaySmall: _headLine3,
+    headlineMedium: _headLine4,
+    headlineSmall: _headLine5,
+    titleLarge: _headLine6,
+    bodyLarge: _bodyText1,
+    bodyMedium: _bodyText2,
+    titleMedium: _subTitle1,
+    titleSmall: _subTitle2,
+    bodySmall: _caption,
   );
 
   static const TextStyle _headLine1 =
@@ -24,7 +24,7 @@ class AppTheme {
 
   static final TextStyle _headLine2 = _headLine1.copyWith();
   static final TextStyle _headLine3 = _headLine2.copyWith();
-  static const TextStyle _headLine4 = 
+  static const TextStyle _headLine4 =
       TextStyle(fontFamily: 'Nexa', fontWeight: FontWeight.normal);
   static final TextStyle _headLine5 = _headLine4.copyWith();
   static final TextStyle _headLine6 =
